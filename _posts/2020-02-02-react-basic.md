@@ -1,5 +1,5 @@
 ---
-title: "[react] Back To Basic React"
+title: "[React] Back To Basic React"
 layout: post
 date: 2020-02-02
 author: wnsgur

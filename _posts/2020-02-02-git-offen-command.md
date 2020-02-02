@@ -41,6 +41,15 @@ git remote -v
 git remote set-url origin 주소
 ```
 
+# 4. .gitignore 적용 (이미 원격 저장소에 올라간 상태에서)
+
+```bash
+git rm -r --cached .
+git add .
+git commit -m "커밋 메세지"
+git push
+```
+
 # 참조
 
 - [참조1](https://www.lesstif.com/pages/viewpage.action?pageId=17105553)
