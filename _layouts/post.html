@@ -105,8 +105,15 @@
     {% endif %}
   </section>
 
-  {% include footer.html %}
+  <script src="https://utteranc.es/client.js"
+        repo="jhlym/jhlym.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
+  {% include footer.html %}
   <script src="{{ "/assets/js/social-share.min.js" | relative_url }}"></script>
   <script>
     socialShare('.social-share', {
@@ -141,7 +148,6 @@
     })();
   </script>
   {% endif %}
-
   <script src="{{ "/assets/js/prism.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/index.min.js" | relative_url }}"></script>
 </body>

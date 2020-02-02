@@ -36,16 +36,16 @@ search: true
 nightMode: true
 
 # Comments 评论功能
-comments:
-  disqus: true
-  disqus_url: "https://wnsgur.disqus.com/embed.js"
+#comments:
+# disqus: true
+# disqus_url: "https://wnsgur.disqus.com/embed.js"
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
 
 # Share
 social-share: true
-social-share-items: ["wechat", "weibo", "douban", "twitter"]
+social-share-items: ["twitter"]
 
 # theme color 主题皮肤
 theme-color: "default" # pink or default
