@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wnsgur.dev/sitemap.xml
