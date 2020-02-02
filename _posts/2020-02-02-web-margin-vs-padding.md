@@ -1,5 +1,5 @@
 ---
-title: "[web] margin vs padding
+title: "[web] margin vs padding"
 layout: post
 date: 2020-02-02
 author: wnsgur
