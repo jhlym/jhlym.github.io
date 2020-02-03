@@ -113,6 +113,7 @@ for (let [key, value] of Object.entries(object1)) {
 # for ...of
 - es6 추가된 새로운 컬렉션 전용 반복 구문입니다.
 - `[Symbol.iterator]` 속성을 가지고 있어야 합니다.
+
 ```js
 var iterable = [10, 20, 30];
 
