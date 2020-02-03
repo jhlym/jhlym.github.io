@@ -71,8 +71,11 @@ iterator.next();                             // { value: undefined, done: true }
 - 객체 속성들을 반복하여 작업을 수행할 수 있습니다.
 - 모든 객체에서 사용이 가능합니다.
 - `key`값에 접근이 가능하나, `value` 값에는 접근이 불가능 합니다.
+- 프로토 타입 체인의 속성도 열거합니다.
+  - 따라서 `hasOwnProperty` 메소드로 프로퍼티를 체크해야 합니다.
 
 ```js
+// 일반 for ...in 예시
 var obj = {
     a: 1, 
     b: 2, 
@@ -82,6 +85,30 @@ var obj = {
 for (var prop in obj) {
     console.log(prop, obj[prop]); // a 1, b 2, c 3
 }
+
+// 프로토 타입 체인 속성 열거 예시
+obj.b = 2; 
+Object.prototype.c = 3; 
+obj.b; // 2 
+obj.c; // 3 
+obj.hasOwnProperty("b"); // true 
+obj.hasOwnProperty("c"); // false
+
+// Object.entries() 
+const object1 = {
+  a: 'somestring',
+  b: 42
+};
+
+for (let [key, value] of Object.entries(object1)) {
+  console.log(`${key}: ${value}`);
+}
+
+// expected output:
+// "a: somestring"
+// "b: 42"
+// order is not guaranteed
+
 ```
 # for ...of
 - es6 추가된 새로운 컬렉션 전용 반복 구문입니다.
@@ -98,3 +125,5 @@ for (var value of iterable) {
 - [MDN 문서](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)
 - [iterable, iterator 참조](https://medium.com/@hyunwoojo/javascript-iterator-iterable-%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-2c6a7bb42d87)
 - [for..in과 for...of](https://jsdev.kr/t/for-in-vs-for-of/2938)
+- [hasOwnProperty 참조](https://mygumi.tistory.com/330)
+
