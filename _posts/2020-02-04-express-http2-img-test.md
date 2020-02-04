@@ -106,6 +106,9 @@ spdy.createServer(options, app).listen(port, () => {
 
 # 테스트
 `http/1.1`과 `http2` 프로토콜일 때, 비교를 해봤습니다. 
+
+![](/images/express-http2-test-1.PNG)
+
 음...별 차이가 없는거 같습니다...라고 생각할때, 새벽이라 머리가 굳었었습니다.....
 [http1과 http2 차이](https://medium.com/@shlee1353/http1-1-vs-http2-0-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EA%B0%84%EB%8B%A8%ED%9E%88-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-5727b7499b78)를 보면 다음과 같습니다.
 
