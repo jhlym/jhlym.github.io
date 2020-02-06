@@ -6,10 +6,9 @@ author: wnsgur
 tags: web
 comments: true
 ---
-#javascript
 
 > 버블링과 캡쳐링에 대해 간단히 정리하는 시간을 갖겠습니다.  
->   
+
 # 버블링
 하위 `element`에서 이벤트가 발생 했을 때, 상위 요소로 전달 되는 것이라고 정의할 수 있습니다.
 
