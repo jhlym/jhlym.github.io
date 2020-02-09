@@ -55,16 +55,3 @@ B test = new B(new A());
 ### 2. @Inject()
 컨테이너에 등록되었거나 `@Service` 데코레이터로 선언된 class는 `@Inject` 데코레이터를 이용하여 다른 클래스에 주입할 수 있습니다.
 
-
-
-> docker 명령어를 사용할 때 docker 데몬이 root 권한으로 실행되기 때문에 sudo 권한을 이용하여 docker 명령어를 실행해야 합니다.  
-> 따라서, 일반 계정에서 docker를 사용할 때는 로그인 계정을 docker 그룹에 추가하면 됩니다.
-
-```bash
-sudo usermod -aG docker $USER
-```
-
-# 참조
-
-- [docker 공식 홈페이지](https://docs.docker.com/install/linux/docker-ce/centos/)
-- [블로그1](https://www.slipp.net/questions/485)
