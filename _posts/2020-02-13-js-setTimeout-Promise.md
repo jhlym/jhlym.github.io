@@ -7,6 +7,9 @@ tags: js
 comments: true
 ---
 
+> jsconf 채널의 영상을 보고 정리하는 겸 포스팅 해봤습니다.  
+> 영상링크 : [JSconf](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
+
 # # setTimeout 그리고 Promise 
 
 웹 페이지에는  `메인  스레드` 라는 것이 있습니다.
@@ -29,7 +32,7 @@ setTimeout(callback, ms)
 
 그리고 `Promise`와 `setTimeout`의 우선순위는 `Promise`가 높다고 하네요. 즉, 동시에 실행된다면, `Promise`가 먼저 실행됩니다.
 
-이 이유는 `MicroTask`와 관련이 있다고 하는데… 글들을 찾아보기도 했고 30분 가량 되는 영상을 봤음에도 불구하고 머리로는 잘 이해가 되지 않는것 같습니다.
+이 이유는 `MicroTask`와 관련이 있다고 하는데… 글들을 찾아보기도 했고 30분 가량 되는 영상을 봤음에도 불구하고 머리로는 잘 이해가 되지 않는것 같습니다.
 
 이 부분 또한 시간 내서 정리해 봐야 겠습니다.
 
@@ -42,8 +45,8 @@ promise와 settimeout 중에 어느 것이 우선순위가 높을지….최근�
 
 
 ## 참조
-- [ ] https://www.youtube.com/watch?v=cCOL7MC4Pl0
-- [ ] [비동기와 Promise #3 | NonBlock](https://blog.javarouka.me/2016/11/12/javascript-async-promise-3/)
+- [JSconf](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
+- [비동기와 Promise #3 | NonBlock](https://blog.javarouka.me/2016/11/12/javascript-async-promise-3/)
 
 
 #javascript
