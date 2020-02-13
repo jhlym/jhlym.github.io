@@ -46,7 +46,7 @@ promise와 settimeout 중에 어느 것이 우선순위가 높을지….최근�
 
 ## 참조
 - [JSconf](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
-- [비동기와 Promise #3 | NonBlock](https://blog.javarouka.me/2016/11/12/javascript-async-promise-3/)
+- [비동기와 Promise #3 NonBlock](https://blog.javarouka.me/2016/11/12/javascript-async-promise-3/)
 
 
 #javascript
