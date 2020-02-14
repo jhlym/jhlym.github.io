@@ -1,5 +1,5 @@
 ---
-title: "나는 어떤 사람일까?"
+title: "[essay] 나는 어떤 사람일까?"
 layout: post
 date: 2020-02-14
 author: wnsgur
